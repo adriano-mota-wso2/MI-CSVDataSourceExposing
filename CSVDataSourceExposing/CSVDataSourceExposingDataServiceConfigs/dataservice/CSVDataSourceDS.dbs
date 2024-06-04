@@ -1,0 +1,24 @@
+<data name="CSVDataSourceDS" transports="http https local">
+  <description>CSV Data Source</description>
+  <config enableOData="false" id="CSV">
+    <property name="csv_datasource">/Users/adrianomota/workspace/integrationstudio/MI-CSVDataSourceExposing/Products.csv</property>
+    <property name="csv_columnseperator">,</property>
+    <property name="csv_startingrow">2</property>
+    <property name="csv_hasheader">true</property>
+    <property name="csv_headerrow">1</property>
+  </config>
+  <query id="Q1" useConfig="CSV">
+    <result element="Products" rowName="Product">
+      <element column="ID" name="ID" xsdType="string" />
+      <element column="Classification" name="Classification" xsdType="string" />
+      <element column="Price" name="Price" xsdType="string" />
+      <element column="Name" name="Name" xsdType="string" />
+    </result>
+  </query>
+  <operation name="GetProductsOp">
+    <call-query href="Q1" />
+  </operation>
+  <resource method="GET" path="Products">
+    <call-query href="Q1" />
+  </resource>
+</data>
