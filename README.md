@@ -11,6 +11,6 @@ To execute the Rest API, you can use the following link below (it's configured t
  - Also, for more information about the CSV process on the WSO2 Micro Integrator, you can use this link [2] for the documentation
  - Also, to find out more about WSO2 Micro Integrator you can check this online documentation [3]
 
-- [1] https://mi.docs.wso2.com/en/latest/develop/installing-wso2-integration-studio/
-- [2] https://mi.docs.wso2.com/en/latest/learn/examples/data-integration/csv-data-service/
-- [3] https://mi.docs.wso2.com/en/latest/get-started/introduction/
+[1] https://mi.docs.wso2.com/en/latest/develop/installing-wso2-integration-studio/
+[2] https://mi.docs.wso2.com/en/latest/learn/examples/data-integration/csv-data-service/
+[3] https://mi.docs.wso2.com/en/latest/get-started/introduction/
