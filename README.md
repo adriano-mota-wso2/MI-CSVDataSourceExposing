@@ -2,7 +2,7 @@
 The purpose of this project is to expose a CSV File as a data source in a REST API using the WSO2 Micro Integrator
 
 ## How to Test
-To test the project, you need to click with the right button of the mouse over the project name and select "Run As" and after click on "Run on Micro Integrator"
+To test the project, you need to click with the right button of the mouse over the project name and select "Run As" and after click on "Run on Micro Integrator".
 To execute the Rest API, you can use the following link below (it's configured to execute a GET HTTP Method)
 [http://localhost:8290/services/CSVDataSourceDS/Products](http://localhost:8290/services/CSVDataSourceDS/Products)
 
